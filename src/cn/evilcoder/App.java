@@ -1,5 +1,6 @@
 package cn.evilcoder;
 
+import cn.evilcoder.algorithm.GenerateNBrakets;
 import cn.evilcoder.algorithm.Permutations;
 import cn.evilcoder.algorithm.SubSet;
 
@@ -17,5 +18,6 @@ public class App {
         System.out.println(SubSet.generateAllSubSetByRecursion(set, 0).size());
         System.out.println(SubSet.generateAllSubSetByCombinatorics(set).size());
         System.out.println(Permutations.genereateStringAllPermutations("abcd"));
+        System.out.println(GenerateNBrakets.generateNBrackets(4));
     }
 }
