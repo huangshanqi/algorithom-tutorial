@@ -3,6 +3,7 @@ package cn.evilcoder.algorithm;
 import java.util.ArrayList;
 
 /**
+ * 组合
  * Created by huangshanqi on 2016/7/10.
  */
 public class Permutations {

@@ -3,6 +3,7 @@ package cn.evilcoder.algorithm;
 import java.util.ArrayList;
 
 /**
+ * 括号
  * Created by huangshanqi on 2016/7/10.
  */
 public class GenerateNBrakets {

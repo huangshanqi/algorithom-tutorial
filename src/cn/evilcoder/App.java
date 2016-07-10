@@ -2,9 +2,11 @@ package cn.evilcoder;
 
 import cn.evilcoder.algorithm.GenerateNBrakets;
 import cn.evilcoder.algorithm.Permutations;
+import cn.evilcoder.algorithm.Prime;
 import cn.evilcoder.algorithm.SubSet;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by huangshanqi on 2016/7/10.
@@ -19,5 +21,7 @@ public class App {
         System.out.println(SubSet.generateAllSubSetByCombinatorics(set).size());
         System.out.println(Permutations.genereateStringAllPermutations("abcd"));
         System.out.println(GenerateNBrakets.generateNBrackets(4));
+
+        System.out.println(Arrays.toString(Prime.sieveOfEratosthenes(10)));
     }
 }

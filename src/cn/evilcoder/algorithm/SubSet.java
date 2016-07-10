@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 子集
  * Write the algorithm to generate all the subSet from specified set.
  * Created by huangshanqi on 2016/7/10.
  */
