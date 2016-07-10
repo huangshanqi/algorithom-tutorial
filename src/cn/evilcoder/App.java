@@ -22,6 +22,6 @@ public class App {
         System.out.println(Permutations.genereateStringAllPermutations("abcd"));
         System.out.println(GenerateNBrakets.generateNBrackets(4));
 
-        System.out.println(Arrays.toString(Prime.sieveOfEratosthenes(10)));
+        System.out.println(Prime.isPrime(10));
     }
 }
