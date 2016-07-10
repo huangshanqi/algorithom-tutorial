@@ -1,6 +1,7 @@
 package cn.evilcoder;
 
-import cn.evilcoder.algorithm.GetAllSubSet;
+import cn.evilcoder.algorithm.Permutations;
+import cn.evilcoder.algorithm.SubSet;
 
 import java.util.ArrayList;
 
@@ -13,7 +14,8 @@ public class App {
         for (int i = 0; i < 7; i ++) {
             set.add(i);
         }
-        System.out.println(GetAllSubSet.generateAllSubSetByRecursion(set, 0).size());
-        System.out.println(GetAllSubSet.generateAllSubSetByCombinatorics(set).size());
+        System.out.println(SubSet.generateAllSubSetByRecursion(set, 0).size());
+        System.out.println(SubSet.generateAllSubSetByCombinatorics(set).size());
+        System.out.println(Permutations.genereateStringAllPermutations("abcd"));
     }
 }

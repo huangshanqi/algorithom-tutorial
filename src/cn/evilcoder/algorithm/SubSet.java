@@ -7,7 +7,7 @@ import java.util.List;
  * Write the algorithm to generate all the subSet from specified set.
  * Created by huangshanqi on 2016/7/10.
  */
-public class GetAllSubSet {
+public class SubSet {
 
     /**
      * Generate all the subSet from a specified set using recursion.
@@ -34,6 +34,11 @@ public class GetAllSubSet {
         return allSubSet;
     }
 
+    /**
+     * 共有2^n个子集，构造所有的子集等同于构造所有的二进制数。
+     * @param set
+     * @return
+     */
     public static ArrayList<ArrayList<Integer>> generateAllSubSetByCombinatorics(ArrayList<Integer> set) {
         ArrayList<ArrayList<Integer>> allSubSet = new ArrayList<>();
         int max = 1 << set.size();
