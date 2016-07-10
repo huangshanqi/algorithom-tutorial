@@ -5,6 +5,7 @@ import java.util.ArrayList;
 /**
  * 组合
  * Created by huangshanqi on 2016/7/10.
+ * See more at <a href = "http://www.evilcoder.cn">www.evilcoder.cn</a>
  */
 public class Permutations {
 

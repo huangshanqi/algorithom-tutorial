@@ -1,11 +1,11 @@
 package cn.evilcoder.algorithm;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * N 皇后问题
  * Created by huangshanqi on 2016/7/10.
+ * See more at <a href = "http://www.evilcoder.cn">www.evilcoder.cn</a>
  */
 public class NQueens {
 
