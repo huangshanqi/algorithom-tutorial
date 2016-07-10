@@ -1,6 +1,7 @@
 package cn.evilcoder;
 
 import cn.evilcoder.algorithm.GenerateNBrakets;
+import cn.evilcoder.algorithm.NQueens;
 import cn.evilcoder.algorithm.Permutations;
 import cn.evilcoder.algorithm.Prime;
 import cn.evilcoder.algorithm.SubSet;
@@ -23,5 +24,12 @@ public class App {
         System.out.println(GenerateNBrakets.generateNBrackets(4));
 
         System.out.println(Prime.isPrime(10));
+        System.out.println(NQueens.generateNQueens(8).size());
+        for (Integer[] integers : NQueens.generateNQueens(8)) {
+            System.out.println(Arrays.toString(integers));
+        }
+        System.out.println(Math.pow(8,8));
+
+
     }
 }

@@ -6,3 +6,4 @@
 ### 字符的左右排列组合 Permutations
 ### 生成N对括号的全部有效组合 GenerateNBrakets
 ### 素数判断，埃拉托斯特尼筛法 Prime
+### N皇后问题 NQueens
