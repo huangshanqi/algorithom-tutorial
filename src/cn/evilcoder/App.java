@@ -1,6 +1,10 @@
 package cn.evilcoder;
 
+import cn.evilcoder.algorithm.FindNNumbersOccurM;
+import cn.evilcoder.algorithm.Gcd;
 import cn.evilcoder.algorithm.GenerateNBrakets;
+import cn.evilcoder.algorithm.GetMaxIncreaseLength;
+import cn.evilcoder.algorithm.GetMaxSubArraySum;
 import cn.evilcoder.algorithm.NQueens;
 import cn.evilcoder.algorithm.Permutations;
 import cn.evilcoder.algorithm.Prime;
@@ -32,5 +36,10 @@ public class App {
         System.out.println(Math.pow(8,8));
 
 
+        System.out.println(FindNNumbersOccurM.find(new int[]{1,2,3,1,2,3,1,2,3,4}, 3, 4));
+
+        System.out.println(Gcd.gcdByPrimeOf2(42, 30));
+        System.out.println(GetMaxSubArraySum.getMaxSubArraySum(new int[]{0,-2,3,5,-1,2}));
+        System.out.println(GetMaxIncreaseLength.getMaxIncreaseLength(new int[]{1,-1,2,-3,4,-5,6,-7}));
     }
 }
